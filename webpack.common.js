@@ -73,7 +73,7 @@ module.exports = {
 
 function getHtmlPlugin(chunks) {
   return chunks.map(chunk => new HtmlPlugin({
-    name: 'Google chrome extension',
+    name: '{{projectName}}',
     filename: `${chunk}.html`,
     chunks: [chunk],
   }))

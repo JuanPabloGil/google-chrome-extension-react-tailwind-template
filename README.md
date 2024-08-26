@@ -8,7 +8,7 @@ Before starting, ensure that you've replaced the following placeholders with you
 
 - `src/static/manifest.json`: Update the extension's metadata, including name, description, version, and permissions.
 - `src/static/icon.png`: Replace with your own extension icon.
-- `webpack.common.js`: Adjust paths or configurations if necessary.
+- `webpack.common.js`: Replace in `getHtmlPlugin` with you project name.
 - `package.json`: Modify the project name, version, author, and other relevant details.
 
 ## Installation
@@ -16,7 +16,7 @@ Before starting, ensure that you've replaced the following placeholders with you
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/JuanPabloGil/google-chrome-extension-react-tailwind-template.git
 cd google-chrome-extension-react-tailwind-template
 ```
 
